@@ -28,6 +28,11 @@ li a{
     padding: 5px 25px;
 }
 
+.btn-large{
+    padding: 7px 25px;
+    
+}
+
 .btn-blue{
     background-color: blue;
 }
@@ -84,12 +89,20 @@ nav ul li{
 /* MAIN */
 
 /* TOP MAIN JUMBOTRON */
-.jumbotron-text{
-    width: 40%;
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 600px;
+}
+.jumbotron h1{
+    font-size: 85px;
+}
+
+.jumbotron-col{
+    width: 30%;
 }
 
 .jumbotron-image{
-    width: 60%;
+    width: 70%;
 }
 
 .jumbotron-image img{
