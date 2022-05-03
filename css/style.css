@@ -4,3 +4,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flexcontainer{
+    display: flex;
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-small{
+    padding: 5px 10px;
+}
+
+.btn-blue{
+    background-color: blue;
+}
+
+.btn-blue a{
+    color: white;
+}
+
+.btn a{
+    text-decoration: none;
+
+}
+
+/* HEADER */
+nav{
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 80px;
+    align-items: center;
+
+}
+
+header{
+    background-color: orange;
+}
+
+.logo{
+    padding: 0 25px;
+}
+
+#inizia{
+    padding: 5px 25px;
+    margin-right : 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 18px;
+}
