@@ -14,6 +14,11 @@ body{
     display: flex;
 }
 
+.jumbocontainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
 li a{
     text-decoration: none;
     color: inherit;
@@ -47,6 +52,10 @@ nav{
 
 header{
     background-color: orange;
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
 }
 
 .logo{
@@ -70,4 +79,19 @@ nav ul{
 
 nav ul li{
     padding: 0 18px;
+}
+
+/* MAIN */
+
+/* TOP MAIN JUMBOTRON */
+.jumbotron-text{
+    width: 40%;
+}
+
+.jumbotron-image{
+    width: 60%;
+}
+
+.jumbotron-image img{
+    width: 80%;
 }
