@@ -253,3 +253,43 @@ nav ul li{
 .buy-now a{
     color: #0061ff;
     font-weight: 600;
+}
+
+/* TARIFFA ENTERPRISE */
+.abbonamento-enterprise{
+    margin-top: 35px;
+    border: 1px solid lightgrey;
+    width: 100%;
+}
+
+.info-enterprise{
+    padding: 25px 20px;
+}
+
+.text-enterprise{
+    width: 60%;
+}
+
+.text-enterprise h3{
+    width: 60%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text-enterprise div{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text-enterprise span{
+    font-size: 14px;
+}
+
+.act-enterprise{
+    width: 40%;
+    text-align: center;
+}
+
+#enterprise{
+    padding: 7px 60px ;
+}
