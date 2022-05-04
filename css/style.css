@@ -68,6 +68,16 @@ li a{
     display: inline-block;
 }
 
+.btn-cta{
+    padding: 7px 50px;
+    background-color: white;
+    display: inline-block;
+}
+
+.btn-cta a{
+    color: inherit;
+}
+
 .btn-blue a{
     color: white;
 }
@@ -454,4 +464,24 @@ nav ul li{
 
 #clear-channel{
     background-color: #ffd830;
+}
+
+/* LAST CALL TO ACTION */
+.last-cta{
+    background-color: #b4d0e7;
+}
+
+.last-cta-content{
+    padding: 100px 0;
+}
+
+.last-cta-title{
+    width: 50%;
+    font-size: 30px;
+    color: #61082b;
+}
+
+.last-cta-btn{
+    text-align: center;
+    width: 50%;
 }
