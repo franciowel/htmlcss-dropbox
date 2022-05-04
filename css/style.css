@@ -24,17 +24,22 @@ li a{
     color: inherit;
 }
 
+/* BUTTONS */
 .btn-small{
     padding: 5px 25px;
 }
 
 .btn-large{
     padding: 7px 25px;
-    
+}
+
+.btn-large a{
+    font-weight: 600;
 }
 
 .btn-blue{
-    background-color: blue;
+    background-color: #0061ff;
+    display: inline-block;
 }
 
 .btn-blue a{
@@ -56,7 +61,6 @@ nav{
 }
 
 header{
-    background-color: orange;
     width: 100%;
     /* position: fixed; */
     top: 0;
@@ -91,20 +95,45 @@ nav ul li{
 /* TOP MAIN JUMBOTRON */
 .jumbotron{
     background-color: #b4d0e7;
-    height: 600px;
+    height: 700px;
 }
 .jumbotron h1{
     font-size: 85px;
+    padding-top: 50px;
 }
 
 .jumbotron-col{
-    width: 30%;
+    width: 25%;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.jumbotron-text{
+    margin-bottom: 15px;
 }
 
 .jumbotron-image{
-    width: 70%;
+    width: 75%;
+    justify-content: center;
 }
 
 .jumbotron-image img{
-    width: 80%;
+    width: 85%;
+}
+
+.jumbotron-content{
+    margin-top: 25px;
+}
+
+.jumbotron-col .btn-large{
+    margin-top: 10px;
+}
+
+.jumbotron-col span{
+    font-size: 14px;
+}
+
+.arrow-down{
+    font-size: 40px;
+    margin-top: 20px;
 }
