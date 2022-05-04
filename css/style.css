@@ -374,3 +374,54 @@ nav ul li{
 }
 
 /* SEZIONE TEAM */
+.team{
+    margin-top: 100px;
+}
+
+.title-team h2{
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.title-team a{
+    color: #0061ff;
+}
+
+.team-banner{
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+.team-piece{
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.team-img{
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-img img{
+    width: 60%;
+    filter: invert(1);
+}
+
+/* TEAM BACKGROUNDS */
+#designit{
+    background-color: #a2d39b;
+    border: 5px solid #d0e9cd;
+}
+
+#arizona-uni{
+    background-color: #61082b;
+}
+
+#florida-uni{
+    background-color: #0093ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
