@@ -49,6 +49,16 @@ li a{
     padding: 7px 45px;
 }
 
+.btn-partner{
+    padding: 7px 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.btn-partner a{
+    color: inherit;
+}
+
 .btn-large a{
     font-weight: 600;
 }
@@ -292,4 +302,33 @@ nav ul li{
 
 #enterprise{
     padding: 7px 60px ;
+}
+
+/* SEZIONE PARTNER */
+.partner{
+    margin-top: 120px;
+}
+.partner-img{
+    width: 50%;
+}
+
+.partner-img img{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.partner-text{
+    width: 50%;
+    padding: 40px 60px;
+}
+
+.partner-text h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.partner-text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 30px;
 }
