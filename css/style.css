@@ -29,6 +29,13 @@ li a{
     color: inherit;
 }
 
+.breaker{
+    width: 70px;
+    height: 1px;
+    background-color: lightgray;
+    margin: 10px 0;
+}
+
 /* BUTTONS */
 .btn-small{
     padding: 5px 25px;
@@ -169,4 +176,29 @@ nav ul li{
 
 .scelta-fatturazione{
     margin-right: 20px;
+}
+
+/* PIANI ABBONAMENTO */
+
+.abbonamenti{
+    justify-content: space-between;
+}
+
+.abbonamenti ul{
+    list-style: none;
+}
+
+.abbonamento-standard{
+    border: 1px solid lightgrey;
+    width: calc(90% / 3);
+}
+
+.customer{
+    border-bottom: 1px solid lightgrey;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.info-abbonamento{
+    padding: 10px 10px;
 }
