@@ -33,7 +33,7 @@ li a{
     width: 70px;
     height: 1px;
     background-color: lightgray;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 
 /* BUTTONS */
@@ -43,6 +43,10 @@ li a{
 
 .btn-large{
     padding: 7px 25px;
+}
+
+.btn-try{
+    padding: 7px 45px;
 }
 
 .btn-large a{
@@ -176,6 +180,7 @@ nav ul li{
 
 .scelta-fatturazione{
     margin-right: 20px;
+    margin-bottom: 40px;
 }
 
 /* PIANI ABBONAMENTO */
@@ -184,8 +189,10 @@ nav ul li{
     justify-content: space-between;
 }
 
-.abbonamenti ul{
+.abbonamento-standard li{
     list-style: none;
+    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 .abbonamento-standard{
@@ -200,5 +207,49 @@ nav ul li{
 }
 
 .info-abbonamento{
-    padding: 10px 10px;
+    padding: 30px 30px;
 }
+
+.info-abbonamento h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.durata{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.plan-title{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.check{
+    color: #0061ff;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.icon-small{
+    margin-right: 5px;
+}
+
+.buy-now{
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.buy-now a{
+    color: #0061ff;
+    font-weight: 600;
