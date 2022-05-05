@@ -193,7 +193,7 @@ nav ul li{
 
 /* MAIN SECTIONS */
 .offer h2{
-    margin-bottom: 50px;
+    padding-bottom: 60px;
     font-size: 44px;
 }
 .round{
@@ -208,6 +208,7 @@ nav ul li{
 
 .round:hover{
     border: 5px solid #0061ff;
+    cursor: pointer;
 }
 
 .fatturazione span{
