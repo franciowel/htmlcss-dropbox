@@ -490,20 +490,33 @@ nav ul li{
 
 /* SEZIONE FAQ */
 .faq{
-    margin-top: 70px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.faq ul{
+    list-style: none;
 }
 
 .faq h3{
     margin-bottom: 30px;
-    font-size: 26px;
+    font-size: 35px;
+}
+
+.faq li{
+    padding: 35px 0;
+    border-top: 1px solid lightgray;
+}
+
+.faq ul:last-child{
+    border-bottom: 1px solid lightgray;
 }
 
 .faq-quest{
-    padding: 15px 0;
-    border-bottom: 1px solid lightgray;
     justify-content: space-between;
+    font-weight: 700;
 }
 
-.quest{
-    font-weight: 600;
+.faq-quest :last-child{
+    padding: 0 15px;
 }
